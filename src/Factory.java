@@ -24,8 +24,21 @@ public class Factory {
             earnings = 1.1;
             products = "houses";
             factoryInfo();
+            yearFounded = 2026;
+            factoryInfo();
 
-
+            //constructing new house
+            //h1 = variable (object of type house)
+            House h1 = new House();
+            h1.owner = "Mr.Kim";
+            System.out.println("The owner is " + h1.owner);
+            //todo: give all the house instance variables values
+            h1.address = "123 Milton Drive";
+            System.out.println("The address is " + h1.address);
+            h1.walls = 4;
+            System.out.println("The amount of walls is " + h1.walls);
+            h1.isOccupied = true;
+            h1.size = 100;
 
     }
     public void factoryInfo(){

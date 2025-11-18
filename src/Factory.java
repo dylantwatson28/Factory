@@ -39,6 +39,16 @@ public class Factory {
             System.out.println("The amount of walls is " + h1.walls);
             h1.isOccupied = true;
             h1.size = 100;
+            House h2 = new House();
+            System.out.println(h2.size);
+            h2.size = 40.2;
+            System.out.println(h2.size);
+            h2.printInfo();
+           House myHouse = new House();
+            myHouse.printInfo();
+
+            House customHouse = new House(200.24,8, "Bobby");
+            customHouse.printInfo();
 
     }
     public void factoryInfo(){
@@ -57,3 +67,6 @@ public class Factory {
 //todo: make method called factory info
 //todo: add souts to print the factory's instance variables
 //todo: change the yearFounded (value) and isOpen and call factoryInfo()
+//todo: make a printInfo method that prints all house instance variables
+//todo: make another hosue called myHouse
+//todo: call printInfo on myHouse

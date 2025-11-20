@@ -24,10 +24,12 @@ public class House {
       isOccupied = true;
 
     }
-    public House(double pSize, int pWalls, String pOwner){
+    public House(double pSize, int pWalls, String pOwner, String paddress,boolean pisOccupied ){
         size = pSize;
         walls = pWalls;
         owner = pOwner;
+        address = paddress;
+        isOccupied = pisOccupied;
     }
 }
 //add 2 more parameters to house constructor

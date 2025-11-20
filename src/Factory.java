@@ -59,6 +59,7 @@ public class Factory {
         System.out.println("the earnings: " + earnings);
         System.out.println("it is " + isOpen + " that the factory is open");
 
+
     }
 
 }

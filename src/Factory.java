@@ -50,6 +50,15 @@ public class Factory {
             House customHouse = new House(200.24,8, "Bobby","362 center st.",true);
             customHouse.printInfo();
 
+            Farm f1 = new Farm();
+            f1.FarmInfo();
+            f1.numberOfAnimals = 5;
+            f1.Animal = "Horse";
+            f1.hasAnimals = true;
+
+            Farm f2 = new Farm(5,"Horse", true);
+            f2.FarmInfo();
+
     }
     public void factoryInfo(){
         System.out.println("the factory info: ");
@@ -58,6 +67,9 @@ public class Factory {
         System.out.println(yearFounded);
         System.out.println("the earnings: " + earnings);
         System.out.println("it is " + isOpen + " that the factory is open");
+
+
+
 
 
     }
@@ -69,5 +81,5 @@ public class Factory {
 //todo: add souts to print the factory's instance variables
 //todo: change the yearFounded (value) and isOpen and call factoryInfo()
 //todo: make a printInfo method that prints all house instance variables
-//todo: make another hosue called myHouse
+//todo: make another house called myHouse
 //todo: call printInfo on myHouse
